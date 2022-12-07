@@ -6,35 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maths Expression Unfamiliar operators</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
+<header>
+    <h1>JAVASCRIPT CODE UNFAMILIAR MATHEMATICAL OPERATIONS</h1>
+</header>
 
 <body>
-
-    <h1>JAVASCRIPT CODE UNFAMILIAR MATHEMATICAL OPERATIONS</h1>
-    <p>
-        // unfamiliar mathematical operations <br>
-        let numb = 10<br>
-        numb = numb +1<br>
-        console.log("numb = 10 + 1 =", numb)<br>
-    </p>
-    <p>
-        numb++ //11 + 1 =12 <br>
-        console.log(numb)
+    <section>
+        
+        
+        <p>
+            // unfamiliar mathematical operations <br>
+            let numb = 10<br>
+            numb = numb +1<br>
+            console.log("numb = 10 + 1 =", numb)<br>
+        </p>
+        <p>
+            numb++ //11 + 1 =12 <br>
+            console.log(numb)
+            <br>
+            numb-- //12 - 1 = 11
+            console.log(numb)
+        </p>
         <br>
-        numb-- //12 - 1 = 11
-        console.log(numb)
-    </p>
-<br>
-    <p>
-        // Postincrement & preincrement <br>
-        let numb1 = 5; // result is 6 <br>
-        let anotherNum = numb1++; // postincrement result is 5 <br>
-        console.log("numb1:", numb1)<br>
-        console.log("anotherNum:", anotherNum) <br>
-    </p>
-
-    <p>
-        let numb2 = 5; // result is 6 <br>
+        <p>
+            // Postincrement & preincrement <br>
+            let numb1 = 5; // result is 6 <br>
+            let anotherNum = numb1++; // postincrement result is 5 <br>
+            console.log("numb1:", numb1)<br>
+            console.log("anotherNum:", anotherNum) <br>
+        </p>
+        
+        <p>
+            let numb2 = 5; // result is 6 <br>
         let anotherNum1 = ++numb2; // preincrement return is 6 <br>
         console.log("anotherNum1:", anotherNum1)<br>
         console.log("numb2:", numb2)<br>
@@ -46,100 +51,100 @@
         console.log("numb3:", numb3); <br>
         console.log("numb4:", numb4); <br>
     </p>
-
-    <br><p>
+    
+    <br>
+    <p>
         <b>EXAMPLE:</b> <br>
         let num1 = 5; // 6 <br>
-        let num2 = 8; // 7     <br>
+        let num2 = 8; // 7 <br>
         
-        // 12 =    5    +   8    -   7    +   6 <br>
+        // 12 = 5 + 8 - 7 + 6 <br>
         result = num1++ + num2-- - num2++ + num1--; <br>
     </p>
-<p>
-    
-    console.log("num1++:", num1++); <br>
-    console.log("num2++:", num2++);<br>
-    console.log("result = num1++ + num2-- - num2++ + num1--=", result); <br>
-    console.log("result = 5 + 8 - 7 + 6 =", result); <br>
-</p>
-<br>
-<p>
-<b> EXAMPLE:</b> <br><br>
-    let num3 = 5; // 6 , 5 , 6 <br>
-    let num4 = 8; // 7 , 8 , 7 <br>
-    
-    result1 = num3++ + num4-- / num4++ * num3-- + ++num3 + --num4; <br>
-    console.log("result1 = num3++ + num4-- / num4++ * num3-- + ++num3 + --num4",); <br>
-    console.log("result1 = 5 + 8 / 7 * 6 + 6 + 7",); <br>
-    console.log("result1 = 5 + (8 / 7 * 6 ) + 6 + 7",); <br>
-    console.log("result1 = 5 + 6.8571428571 + 6 + 7",); <br>
-    console.log("result1 = ", result1) <br>
-</p>
-<br>
-<p>
-    // Eliminating ambiguity ; brackets (grouping) have highest precedence in JV . <br>
-   let average = (11 + 11 + 11 + 11 + 11) / 5 <br>
-    console.log("average = ", average); <br>
-
+    <p>
+        
+        console.log("num1++:", num1++); <br>
+        console.log("num2++:", num2++);<br>
+        console.log("result = num1++ + num2-- - num2++ + num1--=", result); <br>
+        console.log("result = 5 + 8 - 7 + 6 =", result); <br>
     </p>
-
+    <br>
+    <p>
+        <b> EXAMPLE:</b> <br><br>
+        let num3 = 5; // 6 , 5 , 6 <br>
+        let num4 = 8; // 7 , 8 , 7 <br>
+        
+        result1 = num3++ + num4-- / num4++ * num3-- + ++num3 + --num4; <br>
+        console.log("result1 = num3++ + num4-- / num4++ * num3-- + ++num3 + --num4",); <br>
+        console.log("result1 = 5 + 8 / 7 * 6 + 6 + 7",); <br>
+        console.log("result1 = 5 + (8 / 7 * 6 ) + 6 + 7",); <br>
+        console.log("result1 = 5 + 6.8571428571 + 6 + 7",); <br>
+        console.log("result1 = ", result1) <br>
+    </p>
+    <br>
+    <p>
+        // Eliminating ambiguity ; brackets (grouping) have highest precedence in JV . <br>
+        let average = (11 + 11 + 11 + 11 + 11) / 5 <br>
+        console.log("average = ", average); <br>
+        
+    </p>
+    
     <script>
         // unfamiliar mathematical operations
         let numb = 10
         numb = numb + 1
         console.log("numb = 10 + 1 =", numb)
-
+        
         numb++ //11 + 1 =12
         console.log(numb)
-
+        
         numb-- //12 - 1 = 11
         console.log(numb)
-
+        
         // Postincrement & preincrement 
         let numb1 = 5; // result is 6
         let anotherNum = numb1++; // postincrement result is 5
         console.log("numb1:", numb1)
         console.log("anotherNum:", anotherNum)
-
-
+        
+        
         let numb2 = 5; // result is 6
         let anotherNum1 = ++numb2; // preincrement return is 6
         console.log("anotherNum1:", anotherNum1)
         console.log("numb2:", numb2)
-
+        
         let numb3 = 5; // result is
         let numb4 = 10 + numb3
         console.log("numb3:", numb3);
         console.log("numb4:", numb4);
-
+        
         let num1 = 5; // 6
         let num2 = 8; // 7
-
+        
         // 12  =  5     +  8    -   7    +    6
         result = num1++ + num2-- - num2++ + num1--;
-
-
+        
+        
         console.log("num1++:", num1++);
         console.log("num2++:", num2++);
         console.log("result = num1++ + num2-- - num2++ + num1--=", result);
         console.log("result =   5     +   8    -   7    +   6  =", result);
-
+        
         let num3 = 5; // 6 , 5 , 6 
         let num4 = 8; // 7 , 8 , 7
-
+        
         result1 = num3++ + num4-- / num4++ * num3-- + ++num3 + --num4;
         console.log("result1 = num3++ + num4-- / num4++ * num3-- + ++num3 + --num4",);
         console.log("result1 =   5    +    8    /   7   *   6    +   6    +     7",);
         console.log("result1 =   5    +    (8    /   7   *   6 )   +   6    +     7",);
         console.log("result1 =   5    +    6.8571428571   +   6    +     7",);
         console.log("result1 = ", result1)
-
+        
         // Eliminating ambiguity ; brackets (grouping) have highest precedence in JV .
         let average = (11 + 11 + 11 + 11 + 11) / 5
         console.log("average = ", average);
-
-
-    </script>
+        </script>
+</section>
 </body>
 
 </html>
